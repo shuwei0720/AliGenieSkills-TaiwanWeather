@@ -1,4 +1,4 @@
-## Alexa Skills - Taiwan Weather
+## AliGenie Skills - Taiwan Weather
 
 
 ### Structure
