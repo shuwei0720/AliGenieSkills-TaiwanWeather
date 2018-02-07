@@ -1,0 +1,26 @@
+{
+  "name" : "台湾天气",
+  "invocationName" : "台湾天气",
+  "createTime" : 1517810472000,
+  "image" : "https://g.alicdn.com/forest/ai-platform-web/4.0.83/img/default_domain.png",
+  "shortDesc" : "",
+  "longDesc" : "台湾各地区温度天气状况",
+  "oldSamples" : [ ],
+  "newSamples" : [ ],
+  "category" : "",
+  "accountLinkUrl" : "",
+  "serviceProviders" : [ ],
+  "privacyUrl" : "",
+  "termsUrl" : "",
+  "services" : [ ],
+  "smalltalks" : [ {
+    "requests" : [ "我要怎么问" ],
+    "responses" : [ "您可以问台北天气，台北气温或台北温度" ]
+  } ],
+  "nluSolution" : "SFIC",
+  "instructions" : "",
+  "settingLinkUrl" : null,
+  "copyrightUrl" : "",
+  "qualificationUrl" : "",
+  "hasConfirmCompliance" : null
+}

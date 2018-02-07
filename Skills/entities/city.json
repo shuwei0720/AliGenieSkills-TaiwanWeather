@@ -1,0 +1,63 @@
+{
+  "name" : "city",
+  "desc" : "",
+  "scope" : "DOMAIN",
+  "resolution" : "DICTIONARY",
+  "entryCount" : 18,
+  "entries" : [ {
+    "normValue" : "新北市",
+    "synonyms" : [ "淡水" ]
+  }, {
+    "normValue" : "高雄",
+    "synonyms" : [ "左营" ]
+  }, {
+    "normValue" : "桃园",
+    "synonyms" : [ "大园" ]
+  }, {
+    "normValue" : "台中",
+    "synonyms" : [ "大甲" ]
+  }, {
+    "normValue" : "台南",
+    "synonyms" : [ "安平" ]
+  }, {
+    "normValue" : "彰化",
+    "synonyms" : [ "彰化市", "二林", "鹿港" ]
+  }, {
+    "normValue" : "宜兰",
+    "synonyms" : [ "宜兰市" ]
+  }, {
+    "normValue" : "花莲",
+    "synonyms" : [ "花莲市", "玉里", "丰滨" ]
+  }, {
+    "normValue" : "基隆",
+    "synonyms" : [ "七堵" ]
+  }, {
+    "normValue" : "屏东",
+    "synonyms" : [ "屏东市", "东港", "高树", "枋寮", "枋山" ]
+  }, {
+    "normValue" : "台东",
+    "synonyms" : [ "台东市", "关山" ]
+  }, {
+    "normValue" : "南投",
+    "synonyms" : [ "南投市", "埔里" ]
+  }, {
+    "normValue" : "嘉义",
+    "synonyms" : [ "布袋" ]
+  }, {
+    "normValue" : "云林",
+    "synonyms" : [ "斗南", "斗六" ]
+  }, {
+    "normValue" : "苗栗",
+    "synonyms" : [ "三义", "铜锣" ]
+  }, {
+    "normValue" : "苏澳",
+    "synonyms" : [ ]
+  }, {
+    "normValue" : "新竹",
+    "synonyms" : [ "竹东", "湖口" ]
+  }, {
+    "normValue" : "台北",
+    "synonyms" : [ "台北市", "内湖" ]
+  } ],
+  "enable" : true
+}

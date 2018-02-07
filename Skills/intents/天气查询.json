@@ -1,0 +1,57 @@
+{
+  "name" : "天气查询",
+  "description" : "",
+  "type" : "DEFAULT",
+  "useWebhook" : true,
+  "precedingIntents" : [ ],
+  "userSays" : [ {
+    "text" : "台北温度",
+    "labelledText" : "台北温度",
+    "type" : "SAMPLE",
+    "typeUI" : "SAMPLE"
+  }, {
+    "text" : "@{city}{台北}气温",
+    "labelledText" : "@{city}{台北}气温",
+    "type" : "TEMPLATE",
+    "typeUI" : "SAMPLE"
+  }, {
+    "text" : "@{city}",
+    "labelledText" : "@{city}",
+    "type" : "TEMPLATE",
+    "typeUI" : "TEMPLATE"
+  }, {
+    "text" : "@{city}{台北}天气",
+    "labelledText" : "@{city}{台北}天气",
+    "type" : "TEMPLATE",
+    "typeUI" : "SAMPLE"
+  } ],
+  "followUps" : [ ],
+  "parameters" : [ {
+    "required" : true,
+    "name" : "city",
+    "entity" : "city",
+    "prompts" : [ "您想知道哪个城市的天气" ],
+    "replyTemplates" : [ ],
+    "valueReference" : "city",
+    "defaultValue" : ""
+  }, {
+    "required" : true,
+    "name" : "time",
+    "entity" : "sys.time",
+    "prompts" : [ ],
+    "replyTemplates" : [ ],
+    "valueReference" : "time",
+    "defaultValue" : "今天"
+  } ],
+  "responses" : [ ],
+  "executeLogic" : {
+    "type" : "WEBHOOK",
+    "content" : "",
+    "jsonContent" : null,
+    "args" : [ ]
+  },
+  "webhook" : {
+    "url" : "http://ai.mykidscoding.com/skill/weather.php",
+    "headers" : [ ]
+  }
+}
